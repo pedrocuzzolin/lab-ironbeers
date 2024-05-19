@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+
+}
